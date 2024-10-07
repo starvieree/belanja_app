@@ -19,7 +19,7 @@ class ItemPage extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.all(8),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Text('Item: ${item.name}',
                     style: const TextStyle(fontSize: 24)),
