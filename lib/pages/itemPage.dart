@@ -4,7 +4,7 @@ import 'package:belanja_app/models/item.dart';
 class ItemPage extends StatelessWidget {
   final Item item;
 
-  const ItemPage({Key? key, required this.item}) : super(key: key);
+  const ItemPage({super.key, required this.item});
 
   @override
   Widget build(BuildContext context) {
@@ -19,7 +19,7 @@ class ItemPage extends StatelessWidget {
           child: Container(
             margin: const EdgeInsets.all(8),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text('Item: ${item.name}',
                     style: const TextStyle(fontSize: 24)),
